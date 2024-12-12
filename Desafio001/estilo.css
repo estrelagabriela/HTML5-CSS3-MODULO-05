@@ -13,26 +13,27 @@ html,body{
 main{
     background-color: #7BF763;
     height: 100vh;
-    
-    
 }
 header{
-    background-color:#5aad4a ;
-    height: 35px; 
+    background-color:#5aad4a ; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 h1{
     color: white;
-    margin-left: 10px;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.404);
-    font-size: 2em;
-    
+    margin: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    font-size: 2em;  
+    flex: 0 0 200px;
 }
 nav{
-    display: flex;
-    flex-flow: row wrap; 
     background-color:#5aad4a ; 
-    padding: 5px;
-    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 a{
     background-color: #8be07a;
@@ -42,8 +43,7 @@ a{
     border-radius: 5px;
     padding: 5px;
     text-align: center;
-    flex: 0 1 90px;
-    justify-content: flex-start;
+    margin: 5px;
 }
 a:hover{
     background-color: rgb(37, 36, 36);
@@ -54,8 +54,8 @@ section{
     padding: 20px;
     border: 2px solid #4b923d96;
     border-radius: 10px;
-    margin: 10px;
-    box-shadow: 1px 0px 1px 0px #5aad4a9d;
+    margin: 20px;
+    box-shadow: 1px 1px 1px #5aad4a9d;
 }
 section > p{
     text-align: justify;

@@ -1,29 +1,12 @@
 @charset "UTF 08";
 @media screen and (max-width:600px){
-    body{
-        background-color: #7BF763;
+    header,nav{
+        flex-flow: column nowrap;
     }
     h1{
-        text-align: center;
-    }
-    nav{
-        flex-flow: column nowrap;  
+        flex-basis: 40px;
     }
     a{
-        flex: 0 1 30px;
+        width: 90vw;
     }
 }
-/*
-@media screen  and (min-width:1200px){
-    nav{
-        flex-flow: row-reverse;  
-    }
-    #opçao01{order: 6;}
-    #opçao02{order: 5;}
-    #opçao03{order: 4;}
-    #opçao04{order: 3;}
-    #opçao05{order: 2;}
-    #opçao06{order: 1;}
-    
-
-}*/
